@@ -4,48 +4,216 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+
+
+     <!-- --bootstrap-- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <!-- style-sheet -->
+     <link rel="stylesheet" href="../style/global.css">
+     <link rel="stylesheet" href="../style/about-us.css">
+
+
 </head>
 <body>
     <!-- Header Section -->
 
-<header class="header" id="header">
-    <nav class="navbar wrapper">
-        <a href="#" class="head-logo-img">
-            <div>
-                <img class="logo" src="./images/Nav-Logo.svg" alt="Logo">
+    <header class="header" id="header">
+        <div class="wrapper">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="../images/about-us-header-logo.svg" alt="#">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item mx-4">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-4">
+                            <a class="nav-link active" href="#" style="color: #05A93D;" >About</a>
+                            </li>
+                            <li class="nav-item dropdown mx-4">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Trainings
+                            </a>
+
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item p-0" href="#"><span style="color: green;">Module 1</span>- Bridging the Triad of Therapist, Client and Medicine</a></li>
+                                <li><hr class="dropdown-divider m-0"></li> 
+                                <li><a class="dropdown-item p-0" href="#"><span style="color: green;">Module 2</span>- Bridging the Triad of Therapist, Client and Medicine</a></li>
+                                <li><hr class="dropdown-divider m-0"></li>
+                                <li><a class="dropdown-item p-0" href="#"><span style="color: green;">Module 3</span>- Bridging the Triad of Therapist, Client and Medicine</a></li>
+                            </ul>
+                            </li>
+
+                            <li class="nav-item mx-4">
+                            <a href="../pages/contact_us.html" class="nav-link active">Contact Us</a>
+                            </li>
+                        </ul>
+
+                        <!-- <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- ------------banner------------>
+
+<section id="au-banner">
+    <div class="wrapper">
+        <h1>Ground Up Psychedelic <br> Institute</h1>
+    </div>    
+</section>
+
+
+<!-- ---------body-content------ -->
+
+<section id="contents">
+    <div class="wrapper">
+        <p>
+            Ground up Psychedelic Institute supports Mental Health practitioners to reorient their Psychotherapeutic approach to support their clients Bottom up (felt lead) processing, which is activated whilst participating in Psychedelic Medicine experiences. Bringing attention to clients felt awareness becomes the ground for insight, relatedness and reorganisation of self. <br><br>Often labelled “non-Ordinary experiences”, Psychedelic medicine experiences are consistently experienced as
+        </p>
+
+        <div class="card_container">
+            <div class="card">
+                <div class="card_img">
+                    <img src="../images/card_1.svg" alt="card-one">
+                </div>
+                <div class="card_title">
+                    <h4>Emergent</h4>
+                </div>
+                <div class="card_para">
+                    <p>Emergent- arising within the broader whole of existence ; An interplay from which ones experience organically emerges . This is quite opposite to a reduction into</p>
+                </div>
             </div>
-        </a>
-        <div class="burger" id="burger">
-            <i class="fa-solid fa-bars fa-2xl" style="color: #F67C01;" ></i>
+            <div class="card">
+                <div class="card_img">
+                    <img src="../images/card_2.svg" alt="card-one">
+                </div>
+                <div class="card_title">
+                    <h4>Intra-relational</h4>
+                </div>
+                <div class="card_para">
+                    <p>Intra-relational- a process of relating dynamically and internally with alive aspects of ourselves.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img">
+                    <img src="../images/card_3.svg" alt="card-one">
+                </div>
+                <div class="card_title">
+                    <h4>Felt</h4>
+                </div>
+                <div class="card_para">
+                    <p>Felt - Visceral and somatic information becomes infinitely more accessible and interpretable. The experience is every aspect is sensation lead.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img">
+                    <img src="../images/card_4.svg" alt="card-one">
+                </div>
+                <div class="card_title">
+                    <h4>Here and now</h4>
+                </div>
+                <div class="card_para">
+                    <p>Here and now - present. A deeper capacity to be in and with what is happening now, primarily; again via sensation lead information</p>
+                </div>
+            </div>
         </div>
-        <div class="menu" id="menu">
-            <ul class="menu-inner">
-                <li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
-                <li class="menu-item about-item">
-                    <a href="#" class="menu-link">About</a>
-                    <div class="drop_down">
 
-                        <a href="./pages/about_us.html">About Us</a>
-                        <a href="">About Robbie</a>
+        <p>
+            As such, when the Psychotherapist is emergent, intra-relational, feeling lead and attends to the here and now, the client benefits greatly from the cohesion between their Non ordinary experience and Psychotherapeutic approach, furthering both the depth of Non ordinary experience and breadth of integration.
+        </p>
 
-                    </div>
-                </li>
-                <li class="menu-item trainings-item">
-                    <a href="#" class="menu-link">Trainings<img src="./images/dropdoen_arrow.svg" alt="#"></a>
-                    <div class="drop_down">
+        <h5 class="quest">
+            What is top down processing and what is Bottom up Processing?
+        </h5>
 
-                        <a href="" class="training-link"><span style="color: green;">Module 1</span>- Bridging the Triad of Therapist, Client and Medicine</a>
-                        <a href="" class="training-link"><span style="color: green;">Module 2</span>- Bridging the Triad of Therapist, Client and Medicine</a>
-                        <a href="" class="training-link"><span style="color: green;">Module 3</span>- Bridging the Triad of Therapist, Client and Medicine</a>
+        <p class="ans">
+            To oversimplify, Top down processing sounds like “research suggests 8 glasses of water a day are important” bottom up processing sounds like “I feel thirsty, I am going to get a glass of water” The latter is the expression of an internally lived and organismic regulated truth, these kinds of truths match the phenomenological truths which emerge in Non ordinary states and is why bottom up processing is so important to support.
+        </p>
 
-                    </div>
-                </li>
-                <li class="menu-item"><a href="#" class="menu-link">Contact Us</a></li>
-            </ul>
-            <div class="arrow"></div>
+        <h5 class="quest">
+            Who is this training for?
+        </h5>
+
+        <p class="ans">
+            This training is for Mental Health practitioners interested in the field of PAP and well as practitioners who are already working in the field looking to develop their skills and orientation in PAP. Ground up module 1 is for any practitioner wanting to, or currently working in this field who is looking to further integrate their approach into an experience lead, felt lead approach to PAP . This training is also for mental health practitioners who may feel the training they have received is in some way limited or incomplete.
+            <br><br>
+            In some instances, this training is also suitable for those in training to become Mental Health Practitioners.<br><br>
+            Please click through to our enquiry page to find out if you qualify.
+            <br><br>
+            Please note: Psychedelic Assisted Psychotherapy is legal only via registered Psychiatrists.
+            <br><br>
+            This training does not qualify participants to perform Psychedelic Assisted Psychotherapy.
+            <br><br>
+            This training is not intended to teach any therapists to perform Psychedelic Assisted Therapy without being qualified and registered first through RANZA.
+            <br><br>
+            Please visit RANZA - Royal Australian and New Zealand college of Psychiatrists via the below link to learn more.
+            <br><br>
+            https://www.ranzcp.org/clinical-guidelines-publications/in-focus-topics/psychedelics
+            <br> <br>
+            This training is given with the intention of introducing and educating on approaches to Psychedelic Assisted Therapy which are emerging outside of the current academic “Top Down” models which inform this type of treatment to date.
+        </p>
+    </div>
+</section>
+
+<!-- -----------footer---------- -->
+<footer>
+    <div class="wrapper">
+        <div class="logo"><a href="#"><img src="../images/footer-logo.svg" alt="#"></a></div>
+        <div class="link">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Trainings</a>
+            <a href="">Contact Us</a>
         </div>
-    </nav>
-</header>
+        <div class="socials">
+            
+            <a href="">
+            <div class="social-links">
+                    <img src="../images/facebook.svg" alt="">
+                </div>
+            </a>
+            
+            <a href="">
+            <div  class="social-links">
+                    <img src="../images/twitter.svg" alt="">
+                </div>
+            </a>
+            
+            <a href="">
+                    <div class="social-links">
+                    <img src="../images/instagram.svg" alt="">
+                </div>
+            </a>
+            
+            <a href="">
+            <div class="social-links">
+                    <img src="../images/you-tube.svg" alt="">
+                </div>
+            </a>
+        </div>
+        <hr>
+        <p>©2023 Ground up Psychedelic Institute. All Rights Reserved.</p>
+        </hr>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

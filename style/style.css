@@ -149,9 +149,9 @@ video {
 
 /* // Header Section */
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    position: sticky;
    top: 0;
    left: 0;
@@ -173,6 +173,7 @@ video {
 
  
 header ul li a{
+   font-size: 14px;
     color: black;
     font-family: gilroy-medium;
 }
@@ -229,13 +230,6 @@ header ul li a:hover:not(.training-link){
 .trainings-item:hover .drop_down{
    display: block;
 }
-
-
-
-
-
-
-
 
 .navbar {
    display: flex;
@@ -635,7 +629,7 @@ h1 .second_line {
    height: 18px;
    position: relative;
    left: 95px;
-   bottom: 19px;
+   bottom: 20px;
 }
 
 /* -------about-r----------- */
@@ -684,7 +678,7 @@ h1 .second_line {
    margin-left: 10px;
    position: relative;
    left: 92px;
-   bottom: 18px;
+   bottom: 21px;
 }
 
 /* -----------contact-us----------- */
@@ -818,9 +812,6 @@ footer .socials a:nth-child(4){
 
 hr{
   width: 100%;
-  /* border-top: 2px; */
-  /* margin-top: 44.19px;
-  margin-bottom: 41px; */
 }
 
 footer p{
@@ -873,8 +864,6 @@ footer p{
     }
 
 }
-
-
 
 
 
@@ -992,12 +981,6 @@ footer p{
 
 footer .link{
    gap: 10px;
-}
-
-hr{
-   /* border-top: var(--bs-border-width) solid; */
-   /* margin-top: 20px; */
-   /* margin-bottom: 20px; */
 }
 
 footer .logo{
